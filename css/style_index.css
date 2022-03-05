@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300&family=Oswald:wght@200&family=Smooch+Sans:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/background.gif);
+    background-size: cover;
+    color: #fff;
+}
+
+.index_header{
+    margin:50px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+}
+
+.main_texts{
+    margin:50px;
+    padding-top:100px;
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+
+    text-align: center;
+}
+
